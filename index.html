@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Тест</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class = 'header'>
+            <img name = 'icon' src ='https://tinariaone.ru/wp-content/uploads/new_tinaria.png' width="200px">
+            <a href = 'https://tinariaone.ru/shop'><p>КАТАЛОГ</p></a>
+            <a href = 'https://tinariaone.ru/dostavka-i-oplata'><p>ДОСТАВКА И ОПЛАТА</p></a>
+            <a href = 'https://tinariaone.ru/contacts'><P>КОНТАКТЫ</P></a>
+            <a href = 'index.html'><p>ТЕСТ</p></a>
+        </div>
+        <form class = 'test' action="#">
+            <h1>Какой костюм вам подходит?</h1>
+            <div class = 'ask'>
+                <h2>Вопрос 1</h2>
+                <h3>Какие оттенки преобладают в вашем гардеробе?</h3>
+                <p><input name = 'ask1' type = 'radio' value="light" required>Светлые</p>
+                <p><input name = 'ask1' type = 'radio' value = 'dark'>Темные</p>
+            </div>
+            <div class = 'ask'>
+                <h2>Вопрос 2</h2>
+                <h3>Куда вы хотели бы надевать костюм?</h3>
+                <p><input name = 'ask2' type = 'radio'>Деловые встречи </p>
+                <p><input name = 'ask2' type = 'radio'>Работа</p>
+                <p><input name = 'ask2' type = 'radio'>Мероприятия</p>
+                <p><input name = 'ask2' type = 'radio'>Учебные заведения</p>
+                <p><input name = 'ask2' type = 'radio'>Другое</p>
+            </div>
+            <div class = 'ask'>
+                <h2>Вопрос 3</h2>
+                <h3>Какая модель костюма вам больше нравится?</h3>
+                <p><input name = 'ask3' type = 'radio'>Костюм с палаццо </p>
+                <p><input name = 'ask3' type = 'radio'>Костюм с широкими брюками</p>
+                <p><input name = 'ask3' type = 'radio'>Костюм с брюками бананами</p>
+            </div>
+            <div class = 'ask'>
+                <h2>Вопрос 4</h2>
+                <h3>Ваш цвет волос?</h3>
+                <p><input name = 'ask4' type = 'radio'>Блондинка</p>
+                <p><input name = 'ask4' type = 'radio'>Рыжий</p>
+                <p><input name = 'ask4' type = 'radio'>Русый</p>
+                <p><input name = 'ask4' type = 'radio'>Брюнетка</p>
+                <p><input name = 'ask4' type = 'radio'>Другое</p>
+            </div>
+            <input id="input" type="submit" value="Выбрать" onClick="test1(); return false">
+            <div class = 'container' id = 'container'>
+                <img src = '' id = 'image' >
+                <p id = 'answer'></p>
+                <br><a href = '' id = 'href'><input type = 'button' value = 'Перейти'></a>
+            </div>
+        </form>
+    </body>
+    <script src = 'script.js'></script>
+</html>

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Play;
+    src: url(https://fonts.gstatic.com/s/play/v12/6ae84K2oVqwItm4TCpQy2knT.woff2);
+}
+
+*{
+    font-family: Play;
+    text-decoration: none;
+}
+.test {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: black solid 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.test div{
+    padding-bottom: 30px;
+}
+.test p{
+    display: inline;
+}
+
+.test input[type = 'submit']{
+    width: 200px;
+    background: none;
+    border: #722421 solid 3px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.test input[type = 'submit']:hover{
+    background-color: #722421;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.test input[type = 'radio']:hover{
+    cursor:pointer;
+}
+.header{
+    height: 8%;
+    width: 100%;
+    left:0;
+    top:0;
+    position: fixed;
+    background-color: black;
+    display: inline;
+    transition: 2s;
+}
+
+.header img{
+    position: relative;
+    top: 18%;
+    margin-left: 10%;
+}
+
+.header p{
+    padding-left: 20px;
+    position: relative;
+    top: -5px;
+    color: white;
+    display: inline;
+    font-size: 20px;
+    transition: 0.25s;
+}
+
+.header p:hover{
+    color: rgb(195, 194, 194);
+}
+
+.container {
+    visibility: hidden;
+    margin-top: 20px;
+}
+
+.container img{
+    padding: 20px;
+    width: 200px;
+}
+
+.container input{
+    margin-top: 20px;
+    width: 100px;
+    background: none;
+    border: #722421 solid 3px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container input:hover{
+    background-color: #722421;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
